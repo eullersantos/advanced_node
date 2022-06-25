@@ -4,5 +4,21 @@
   "main": "index.js",
   "repository": "git@github.com:eullersantos/advanced_node.git",
   "author": "Euller Tavares <eullertav@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/main/api",
+    "build": "rimraf dist && tsc"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^16.0.1",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "16.x"
+  }
 }
