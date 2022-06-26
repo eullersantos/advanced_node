@@ -1,4 +1,5 @@
-function teste (): void {
+function teste01 (): void {
   console.log('oi')
 }
-teste()
+
+teste01()
